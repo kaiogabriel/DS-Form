@@ -1,0 +1,12 @@
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\bin\Debug\ProjetoADS.exe.config
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\bin\Debug\ProjetoADS.exe
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\bin\Debug\ProjetoADS.pdb
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.frmLogin.resources
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.frmSplash.resources
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.Properties.Resources.resources
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.csproj.GenerateResource.cache
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.exe
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.pdb
+C:\Users\Aluno\source\repos\ProjetoADS\ProjetoADS\obj\Debug\ProjetoADS.frmMenuPrincipal.resources
