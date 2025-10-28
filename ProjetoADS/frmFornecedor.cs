@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjetoADS
 {
-    public partial class frmMenuPrincipal : Form
+    public partial class frmFornecedor : Form
     {
-        public frmMenuPrincipal()
+        public frmFornecedor()
         {
             InitializeComponent();
-        }
-
-        private void btnCliente_Click(object sender, EventArgs e)
-        {
-            frmCliente abrir = new frmCliente();
-            abrir.Show();
-            this.Hide();
         }
     }
 }
