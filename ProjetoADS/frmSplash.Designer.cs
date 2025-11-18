@@ -34,7 +34,9 @@
             this.pgbSplash = new System.Windows.Forms.ProgressBar();
             this.lblNumero = new System.Windows.Forms.Label();
             this.tmtSplash = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -68,15 +70,25 @@
             // tmtSplash
             // 
             this.tmtSplash.Enabled = true;
-            this.tmtSplash.Interval = 50;
+            this.tmtSplash.Interval = 40;
             this.tmtSplash.Tick += new System.EventHandler(this.tmtSplash_Tick);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(335, 451);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(452, 43);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;            // 
             // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1106, 567);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.pgbSplash);
             this.Controls.Add(this.pictureBox1);
@@ -87,6 +99,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -98,6 +111,7 @@
         private System.Windows.Forms.ProgressBar pgbSplash;
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Timer tmtSplash;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
