@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmFornecedor
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmFornecedor";
+            this.ClientSize = new System.Drawing.Size(1006, 567);
+            this.ForeColor = System.Drawing.SystemColors.Window;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "frmFornecedor";
+            this.Text = "Fornecedor";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

@@ -76,6 +76,12 @@
     <Compile Include="frmNotaFiscal.Designer.cs">
       <DependentUpon>frmNotaFiscal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduto.Designer.cs">
+      <DependentUpon>frmProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSplash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,11 +93,17 @@
     <EmbeddedResource Include="frmCliente.resx">
       <DependentUpon>frmCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmFornecedor.resx">
+      <DependentUpon>frmFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduto.resx">
+      <DependentUpon>frmProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
@@ -104,6 +116,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -117,6 +130,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokebola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokebola1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-1701527825902nvf7o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokeball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokeball1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\great_ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ultra_ball.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

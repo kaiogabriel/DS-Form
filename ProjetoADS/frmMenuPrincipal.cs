@@ -24,6 +24,30 @@ namespace ProjetoADS
             this.Hide();
         }
 
-      
+        private void btnProduto_Click(object sender, EventArgs e)
+        {
+            frmProduto abrir = new frmProduto();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void btnFornecedor_Click(object sender, EventArgs e)
+        {
+            frmFornecedor abrir = new frmFornecedor();
+            abrir.Show(); 
+            this.Hide();
+        }
+
+        private void btnNotaFiscal_Click(object sender, EventArgs e)
+        {
+            frmNotaFiscal abrir = new frmNotaFiscal();
+            abrir.Show(); 
+            this.Hide();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close
+        }
     }
 }

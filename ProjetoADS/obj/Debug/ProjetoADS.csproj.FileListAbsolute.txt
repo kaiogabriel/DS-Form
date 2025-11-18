@@ -23,3 +23,4 @@ C:\Users\Aluno\Source\Repos\DS-Form\ProjetoADS\obj\Debug\ProjetoADS.csproj.Gener
 C:\Users\Aluno\Source\Repos\DS-Form\ProjetoADS\obj\Debug\ProjetoADS.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Source\Repos\DS-Form\ProjetoADS\obj\Debug\ProjetoADS.exe
 C:\Users\Aluno\Source\Repos\DS-Form\ProjetoADS\obj\Debug\ProjetoADS.pdb
+C:\Users\Aluno\Source\Repos\DS-Form\ProjetoADS\obj\Debug\ProjetoADS.frmProduto.resources

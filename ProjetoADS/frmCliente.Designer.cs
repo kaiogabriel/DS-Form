@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCliente));
             this.gpbDadosCliente = new System.Windows.Forms.GroupBox();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.lblIdade = new System.Windows.Forms.Label();
-            this.lblCodigo = new System.Windows.Forms.Label();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtIdade = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnNovo = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
+            this.txtIdade = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblCodigo = new System.Windows.Forms.Label();
+            this.lblIdade = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gpbDadosCliente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -61,25 +61,29 @@
             this.gpbDadosCliente.TabStop = false;
             this.gpbDadosCliente.Text = "Dados do Cliente";
             // 
-            // lblNome
+            // txtCodigo
             // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(12, 91);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(65, 20);
-            this.lblNome.TabIndex = 0;
-            this.lblNome.Text = "Nome :";
+            this.txtCodigo.Location = new System.Drawing.Point(96, 163);
+            this.txtCodigo.Multiline = true;
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(239, 20);
+            this.txtCodigo.TabIndex = 5;
             // 
-            // lblIdade
+            // txtIdade
             // 
-            this.lblIdade.AutoSize = true;
-            this.lblIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdade.Location = new System.Drawing.Point(12, 127);
-            this.lblIdade.Name = "lblIdade";
-            this.lblIdade.Size = new System.Drawing.Size(65, 20);
-            this.lblIdade.TabIndex = 1;
-            this.lblIdade.Text = "Idade :";
+            this.txtIdade.Location = new System.Drawing.Point(96, 127);
+            this.txtIdade.Multiline = true;
+            this.txtIdade.Name = "txtIdade";
+            this.txtIdade.Size = new System.Drawing.Size(239, 20);
+            this.txtIdade.TabIndex = 4;
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(96, 88);
+            this.txtNome.Multiline = true;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(239, 20);
+            this.txtNome.TabIndex = 3;
             // 
             // lblCodigo
             // 
@@ -91,29 +95,67 @@
             this.lblCodigo.TabIndex = 2;
             this.lblCodigo.Text = "Código :";
             // 
-            // txtNome
+            // lblIdade
             // 
-            this.txtNome.Location = new System.Drawing.Point(96, 88);
-            this.txtNome.Multiline = true;
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(239, 20);
-            this.txtNome.TabIndex = 3;
+            this.lblIdade.AutoSize = true;
+            this.lblIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdade.Location = new System.Drawing.Point(12, 127);
+            this.lblIdade.Name = "lblIdade";
+            this.lblIdade.Size = new System.Drawing.Size(65, 20);
+            this.lblIdade.TabIndex = 1;
+            this.lblIdade.Text = "Idade :";
             // 
-            // txtIdade
+            // lblNome
             // 
-            this.txtIdade.Location = new System.Drawing.Point(96, 127);
-            this.txtIdade.Multiline = true;
-            this.txtIdade.Name = "txtIdade";
-            this.txtIdade.Size = new System.Drawing.Size(239, 20);
-            this.txtIdade.TabIndex = 4;
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(12, 91);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(65, 20);
+            this.lblNome.TabIndex = 0;
+            this.lblNome.Text = "Nome :";
             // 
-            // txtCodigo
+            // btnVoltar
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(96, 163);
-            this.txtCodigo.Multiline = true;
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(239, 20);
-            this.txtCodigo.TabIndex = 5;
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Image = global::ProjetoADS.Properties.Resources.ultra_ball;
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVoltar.Location = new System.Drawing.Point(392, 458);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(150, 50);
+            this.btnVoltar.TabIndex = 4;
+            this.btnVoltar.Text = " Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Image = global::ProjetoADS.Properties.Resources.great_ball;
+            this.btnLimpar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLimpar.Location = new System.Drawing.Point(203, 458);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(150, 50);
+            this.btnLimpar.TabIndex = 3;
+            this.btnLimpar.Text = "   Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnNovo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.Image = global::ProjetoADS.Properties.Resources.pokeball;
+            this.btnNovo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNovo.Location = new System.Drawing.Point(16, 458);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(150, 50);
+            this.btnNovo.TabIndex = 2;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = false;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // pictureBox1
             // 
@@ -124,39 +166,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnNovo
-            // 
-            this.btnNovo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNovo.Location = new System.Drawing.Point(16, 458);
-            this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(150, 50);
-            this.btnNovo.TabIndex = 2;
-            this.btnNovo.Text = "Novo";
-            this.btnNovo.UseVisualStyleBackColor = true;
-            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(203, 458);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(150, 50);
-            this.btnLimpar.TabIndex = 3;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(392, 458);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(150, 50);
-            this.btnVoltar.TabIndex = 4;
-            this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmCliente
             // 
@@ -190,8 +199,8 @@
         private System.Windows.Forms.Label lblIdade;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Button btnNovo;
     }
 }
